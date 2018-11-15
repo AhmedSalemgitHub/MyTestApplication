@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:onClick="OpenControlsActivity"
         android:text="@string/test_controls"
-        android:drawableLeft="@drawable/clip"
+        android:drawableStart="@drawable/clip"
 
         />
 
