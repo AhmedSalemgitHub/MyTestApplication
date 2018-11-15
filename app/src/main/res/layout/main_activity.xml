@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_addControls"
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls"
+        android:drawableLeft="@drawable/clip"
+
+        />
+
+    <TextView
+        android:id="@+id/second_test"
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls" />
+
+    <TextView
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls" />
+
+    <TextView
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls" />
+
+    <TextView
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls" />
+
+    <TextView
+        style="@style/main_screen_buttons"
+        android:background="@color/RED"
+        android:textColor="@color/YELLOW"
+        android:textStyle="bold"
+        android:onClick="OpenControlsActivity"
+        android:text="@string/test_controls" />
+
+</LinearLayout>
